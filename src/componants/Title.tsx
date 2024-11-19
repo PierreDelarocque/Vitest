@@ -9,6 +9,7 @@ function Title({ title }: propsType) {
   return (
     <>
       <h1>{title}</h1>
+      <p>coucou</p>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
